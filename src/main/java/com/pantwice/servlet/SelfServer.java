@@ -10,7 +10,7 @@ public class SelfServer {
     private ServerSocket serverSocket;
     private PathMapping pathMapping;
 
-    public void init(ServeConfig serveConfig, PathMapping pathMapping) throws IOException {
+    public void init(SelfServeConfig serveConfig, PathMapping pathMapping) throws IOException {
         serverSocket = new ServerSocket();
         serverSocket.bind(new InetSocketAddress(serveConfig.getHost(), serveConfig.getPort()),
                 serveConfig.getBacklog());

@@ -1,7 +1,6 @@
 package com.pantwice.servlet;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,7 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ServeConfig {
+public class SelfServeConfig {
 
     private String host;
 

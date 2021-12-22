@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        ServeConfig serveConfig = new ServeConfig("127.0.0.1", 8080, 10);
+        SelfServeConfig serveConfig = new SelfServeConfig("127.0.0.1", 8080, 10);
 
         PathMapping pathMapping = new PathMapping();
         pathMapping.addMapping("/hello", "com.pantwice.servlet.HelloSelfServlet");
